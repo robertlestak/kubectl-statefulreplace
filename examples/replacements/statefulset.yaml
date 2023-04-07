@@ -1,0 +1,7 @@
+---
+kind: Statefulset
+name: nginx
+namespace: default
+replacements:
+- container: nginx
+  image: nginx:1.7.9
